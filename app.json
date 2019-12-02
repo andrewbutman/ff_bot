@@ -48,6 +48,13 @@
     "INIT_MSG": {
       "description": "Bot Init Message",
       "value": "Hi"
-    }
+    },
+    "SWID": {
+      "description": "private league id",
+      "value": "1"
+    },
+    "ESPN_S2": {
+      "description": "private league value",
+      "value": "1"
   }
 }
