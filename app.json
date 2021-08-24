@@ -10,20 +10,23 @@
     "chat bot",
     "ff"
   ],
-  "website": "https://github.com/dtcarls/ff_bot/",
-  "repository": "https://github.com/dtcarls/ff_bot/",
+  "website": "https://github.com/dtcarls/fantasy_football_chat_bot/",
+  "repository": "https://github.com/dtcarls/fantasy_football_chat_bot/",
   "env": {
     "BOT_ID": {
       "description": "GroupMe Bot ID",
-      "value": "1"
+      "value": "1",
+      "required": false
     },
     "SLACK_WEBHOOK_URL": {
       "description": "Slack Webhook URL",
-      "value": "1"
+      "value": "1",
+      "required": false
     },
     "DISCORD_WEBHOOK_URL": {
       "description": "Discord Webhook URL",
-      "value": "1"
+      "value": "1",
+      "required": false
     },
     "LEAGUE_ID": {
       "description": "ESPN League ID",
@@ -31,31 +34,27 @@
     },
     "LEAGUE_YEAR": {
       "description": "ESPN League Year",
-      "value": "2019"
+      "value": "2021",
+      "required": false
     },
     "TIMEZONE": {
       "description": "League timezone for sending messages",
-      "value": "America/New_York"
+      "value": "America/New_York",
+      "required": false
     },
     "START_DATE": {
       "description": "Season Start Date",
-      "value": "2019-09-04"
+      "value": "2021-09-09",
+      "required": false
     },
     "END_DATE": {
       "description": "Season End Date",
-      "value": "2019-12-30"
+      "value": "2022-01-04",
+      "required": false
     },
     "INIT_MSG": {
       "description": "Bot Init Message",
-      "value": "Hi"
-    },
-    "SWID": {
-      "description": "private league id",
-      "value": "1"
-    },
-    "ESPN_S2": {
-      "description": "private league value",
-      "value": "1"
+      "value": "Successfully installed https://github.com/dtcarls/fantasy_football_chat_bot you can now remove this init_msg"
     }
   }
 }
